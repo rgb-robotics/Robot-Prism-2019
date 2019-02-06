@@ -10,7 +10,7 @@ import frc.robot.Robot;
 
 import edu.wpi.first.wpilibj.command.Command;
 
- class TeleopDrive extends Command {
+  public class TeleopDrive extends Command {
   public TeleopDrive() {
     // Use requires() here to declare subsystem dependencies
    requires(Robot.RobotDrive);
