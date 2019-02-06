@@ -8,13 +8,19 @@
 package frc.robot.subsystems;
 
 import edu.wpi.first.wpilibj.command.Subsystem;
+import edu.wpi.first.wpilibj.Spark;
+import edu.wpi.first.wpilibj.SpeedControllerGroup;
+import frc.robot.RobotMap;
 
 /**
  * Add your docs here.
  */
-public class Arm extends Subsystem {
+public class BallGrabber extends Subsystem {
   // Put methods for controlling this subsystem
   // here. Call these from Commands.
+
+  public Spark BallGrabberL = new Spark(RobotMap.BallGrabberLeftPort);
+  public Spark BallGrabberR = new Spark(RobotMap.BallGrabberRightPort);
 
   @Override
   public void initDefaultCommand() {

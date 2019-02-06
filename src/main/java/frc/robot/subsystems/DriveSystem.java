@@ -34,7 +34,7 @@ public class DriveSystem extends Subsystem {
     if(move > 0.5 ){
       move = 0.5;
     }
-    drive.tankDrive(move, turn);
+    drive.arcadeDrive(move, turn);
   } 
 
   @Override
