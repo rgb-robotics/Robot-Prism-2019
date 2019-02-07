@@ -29,7 +29,10 @@ public class RobotMap {
   public static int BallGrabberLeftPort = 5;
   public static int BallGrabberRightPort = 6;
 
-  public static int JoystickPort = 4;
+  public static int RotatingArmPort = 7;
+
+  public static int JoystickPort = 0;
+  public static int XBoxPort = 1;
 
   // If you are using multiple modules, make sure to define both the port
   // number and the module. For example you with a rangefinder:
