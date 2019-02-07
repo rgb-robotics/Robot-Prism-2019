@@ -26,10 +26,14 @@ public class RobotMap {
   public static int RightFrontPort = 2;
   public static int RightBackPort = 3;
 
-  public static int BallGrabberLeftPort = 5;
-  public static int BallGrabberRightPort = 6;
+  public static int BallGrabberLeftPort = 4;
+  public static int BallGrabberRightPort = 5;
 
-  public static int RotatingArmPort = 7;
+  public static int RotatingArmPort = 6;
+
+  public static int DiscMechPort = 7;
+
+  public static int LiftMechPort = 8;
 
   public static int JoystickPort = 0;
   public static int XBoxPort = 1;
